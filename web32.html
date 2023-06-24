@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动定位练习-团购界面</title>
+    <style>
+       
+        *{
+            margin:0;
+            padding:0;
+}
+        div{
+            width: 300px;
+            height: 330px;
+            border: 2px solid #ccc;
+            margin: 0 auto;
+            margin-top: 100px;
+            position: relative;
+        }
+        div .hot{
+            width: 55px;
+            height: 50px;
+            background: url("C:/Users/逐星i/OneDrive/桌面/web实验/实验三素材/new.gif") no-repeat -1px 3px;
+            position: absolute;
+            left: 0;
+            margin-top: 10px;
+            top: -4px;
+        }
+        div img{
+            width: 270px;
+            height: 200px;
+            position: absolute;
+            left: 15px;
+            top: 10px;
+ 
+        }
+ 
+        div .diyihangwenzi{
+	    	width: 280px;
+            height: 50px;
+	    	position: absolute;
+	    	bottom: 60px;
+	    	left: 8px;
+	    	border: none;
+            }
+        div .see{
+            width: 134px;
+            height: 42px;
+            background: url("see.jpg") no-repeat 2px 6px;
+            position: absolute;
+            left: 210px;
+            bottom: 25px ;
+        }
+        
+ 	    div	.jiage{
+ 	    	width: 280px;
+            height: 20px;
+ 	    	font-size: 20px;
+ 	    	color:red;
+ 	    	font-weight: bold;
+ 	    	position: absolute;
+ 	    	bottom: 35px;
+ 	    	border:none;
+ 	    }
+	    div .yigou{
+	    	width: 134px;
+            height: 10px;
+	    	font-size: 5px;
+	    	position: absolute;
+	    	left: 226px;
+            bottom: 20px ;
+            border: none;
+	    }
+	    
+    </style>
+</head>
+<body>
+ 
+    <div>
+    	<img src="C:/Users/逐星i/OneDrive/桌面/web实验/实验三素材/pic.jpg" alt="团购网">
+        <span class="hot">团购网<img src=""></span>
+        <div class=diyihangwenzi>【69店通用】过桥米线代金券一张，无需预约，全场通用</div> 
+        <div class=jiage>&nbsp&nbsp&nbsp¥19.9 <xiao style="font-size: 10px;color:#D3D3D3">原价¥39|6.6折</xiao></div>
+        <span class="see" ></span>
+        <div class="yigou"><red style="color: red">32</red><hei>人已购买</hei></div>
+    </div>
+ 
+ 
+</body>
+</html>
